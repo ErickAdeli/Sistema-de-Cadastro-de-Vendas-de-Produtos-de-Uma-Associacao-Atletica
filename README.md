@@ -53,10 +53,11 @@ d) Tela cadastrar vendedor - tela responsável por cadastrar o vendedor, bem com
 ![Cadastro-de-Vendedor](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Cadastrar-Vendedor.png "Cadastro de Vendedor")
 
 e) Tela registrar venda - Tela responsável por registrar uma venda, onde será informado dados de quem vendeu, dado do produto vendido e nome para quem vendeu com intuito de facilitar a venda realizada.
-![Registor-de-Venda](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Registro-de-Venda.png "Registro de venda")
+![Registro-de-Venda](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Registro-de-Venda.png "Registro de venda")
  
 f) Tela gerar relatório - Tela responsável por exibir todas as vendas realizadas, em uma segunda tabela será possível exibir o produto, a quantidade vendida e o total arrecadado com o mesmo.
-![Gerar-Relatorio](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Gerar-Relatório.png "Tela de Gerar Relatório)
+![Gerar-Relatorio](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Gerar-Relatório.png "Tela de Gerar Relatório).
+
 
 ### 5. Referências
 Na criação dos protótipos foi utilizado a ferramenta Pencil.
