@@ -60,4 +60,4 @@ f) Tela gerar relatório - Tela responsável por exibir todas as vendas realizad
 
 
 ### 5. Referências
-Na criação dos protótipos foi utilizado a ferramenta Pencil.
+Na criação dos protótipos foi utilizado a ferramenta Pencil Project.
