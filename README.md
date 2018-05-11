@@ -41,7 +41,7 @@ A funcionalidade gerar relatório será a responsável por gerar dados finais co
  O Protótipo foi construído na plataforma pencil project e conta com as seguintes telas.
  	
 a)Tela Home - tela responsável por apresentar a associação atlética acadêmica.
-![Home-Page](https://github.com/ErickAdeli/Teste/tree/master/prototipo/Home-Page.png "Home Page")
+![Home-Page](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Home-Page.png "Home Page")
 
 b) Tela log in - tela responsável por realizar o login do vendedor e do administrador, 	ao efetuar o login no sistema, o vendedor terá acesso apenas as possibilidades de registrar venda e gerar relatório. O administrador será o responsável por cadastrar novos produtos e também os vendedores. Possibilidades de realizar exclusão e alteração de dados serão consideradas no decorrer do projeto.
 ![Tela-Login](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/Login.png "Tela de login")
