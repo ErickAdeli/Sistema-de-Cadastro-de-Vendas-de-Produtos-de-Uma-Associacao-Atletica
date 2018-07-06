@@ -18,23 +18,39 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
 ### 2. Escopo
 
   Esse projeto contará com as seguintes funcionalidades:
+  
+  
+###2.1  Vendedor
+	* Cadastrar Vendedor: Essa funcionalidade contará com o cadastro dos vendedores. 
+	* Excluir Vendedor: Essa funcionalidade contará com a exclusão dos vendedores.
+	* Alterar Vendedor: Essa funcionalidade contará com a atualização dos dados dos vendedores.
+	* Exibir Vendedor: Essa funcionalidade contará com a exibição dos vendedores.
+	
+###2.2- Produto
+	* Cadastrar Produto: Essa funcionalidade contará com o cadastro dos produtos. 
+	* Excluir Produto: Essa funcionalidade contará com a exclusão dos produtos.
+	* Alterar Produto: Essa funcionalidade contará com a atualização dos dados dos produtos.
+	* Exibir Produto: Essa funcionalidade contará com a exibição dos produtos.
 
-1- Cadastrar vendedor
-	Essa funcionalidade contará com o cadastro dos vendedores. 
+###2.3- Associados
+	* Cadastrar Associados: Essa funcionalidade contará com o cadastro dos associados. 
+	* Excluir Associados: Essa funcionalidade contará com a exclusão dos dados dos associados.
+	* Alterar Produto: Essa funcionalidade contará com a atualização dos dados dos associados.
+	* Exibir Associados: Essa funcionalidade contará com a exibição dos dados dos associados.
+	
+###2.4- Vendas
+	* Cadastrar Vendas: Essa funcionalidade contará com o cadastro das Vendas. 
+	* Excluir Vendas: Essa funcionalidade contará com a exclusão dos Vendas.
+	* Alterar Vendas: Essa funcionalidade contará com a atualização dos dados dos Vendas.
+	* Exibir Vendas como relatório: Essa funcionalidade contará com a exibição dos Vendas.
+	* Valida Vendas: Permite que a venda seja realizada se exister o produto em estoque.
+	* Decrementar quantidade vendida: Atualiza valor do produto em estoque.
 
-2- Cadastrar produto 
-	Essa funcionalidade visa cadastrar os produtos que são vendidos pela organização
-
-3- Cadastrar venda do produto
-	Essa funcionalidade visa cadastrar a venda realizada, relacionando quem vendeu e qual produto foi vendido. O preenchimento de para quem foi vendido é opcional. 
-
-4- Gerar relatório
-A funcionalidade gerar relatório será a responsável por gerar dados finais como número de itens vendidos, e quais itens foram vendidos. E o total arrecadado com a venda desses itens. 
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados as funcionalidades de realizar pagamento, serviços de e-commerce e cadastro de clientes. O sistema será desenvolvido em plataforma web de forma responsiva.  
+  Neste trabalho não serão considerados as funcionalidades de realizar pagamento, serviços de e-commerce e cadastro de clientes. O sistema será desenvolvido em plataforma web, As vendas só são permitidas se estiver o produto em estoque. O sistema possuirá apenas um administrador, e o mesmo será o unico que terá acesso a view de Vendedores, com os dados dos vendedores. Assumimos que os vendedores tenham acesso apenas aos registros de vendas e associados. 
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
