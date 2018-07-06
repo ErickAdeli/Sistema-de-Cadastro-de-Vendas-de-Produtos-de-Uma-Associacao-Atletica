@@ -78,7 +78,7 @@ f) Tela gerar relatório - Tela responsável por exibir todas as vendas realizad
 ### 5. Entrega do Trabalho.
 
 a)Tela principal - tela principal.
-![Home-Page](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/Home2.JPG "Home Page")
+![Home-Page](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/home2.JPG "Home Page")
 
 b) Tela login - tela responsável por realizar o login do administrador, ao efetuar o login no sistema, o administrador terá alèm das visões destinadas ao usuário comum, ele poderar acessar aos dados dos dos vendedores, bem como cadastrar e alterar seus dados. 
 ![Login](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/login2.JPG "Tela de login")
