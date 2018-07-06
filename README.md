@@ -102,3 +102,7 @@ Observação: Os exemplos acima citados se referem ao produto, porém as visões
 
 ### 7. Referências
 Na criação dos protótipos foi utilizado a ferramenta Pencil Project.
+
+CSS3 button generator. <http://css3button.net/>. Acesso em: 20 jun. 2018.
+
+Design Responsivo. Youtube. Disponível em: <https://www.youtube.com/watch?v=Z7z8J12hMco&list=PLwXQLZ3FdTVFi6oHo_K4IYDcwCU5-f1x5>. Acesso em: 15 jun. 2018.
