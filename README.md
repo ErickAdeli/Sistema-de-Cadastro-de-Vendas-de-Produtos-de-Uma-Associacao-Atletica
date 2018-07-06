@@ -78,25 +78,25 @@ f) Tela gerar relatório - Tela responsável por exibir todas as vendas realizad
 ### 5. Entrega do Trabalho.
 
 a)Tela principal - tela principal.
-![Home-Page](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo-final/Home2.png "Home Page")
+![Home-Page](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/Home2.png "Home Page")
 
 b) Tela login - tela responsável por realizar o login do administrador, ao efetuar o login no sistema, o administrador terá alèm das visões destinadas ao usuário comum, ele poderar acessar aos dados dos dos vendedores, bem como cadastrar e alterar seus dados. 
-![Login](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo-final/login2.png "Tela de login")
+![Login](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/login2.png "Tela de login")
 
 c) Tela de cadastrar produto - tela responsável por cadastrar os produtos e seus valores.
-![Cadastrar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo-final/inserir2.png "Cadastro")
+![Cadastrar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo-final/inserir2.png "Cadastro")
 
 d) Tela Excluir Produto - tela responsável por excluir o registro do produto.
-![Excluir](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/prototipo-final/dados2.png "Exclusao")
+![Excluir](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/protipo-final/dados2.png "Exclusao")
 
 e) Tela exibir Produto - Tela responsável por exibir os dados dos produtos. 
-![Exibir-Dados](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/prototipo-final/alterar2.png "Exibicao")
+![Exibir-Dados](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/protipo-final/alterar2.png "Exibicao")
  
 f) Tela Alterar Produto - Tela responsável por oferecer a opçao de Alterar o registro de um produto. 
-![Alterar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/prototipo-final/atualizar2.png "Alterar").
+![Alterar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo/protipo-final/atualizar2.png "Alterar").
 
 g) Tela Registrar Administrador - Tela responsável por realizar o registro do administrador.
-![Registrar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/prototipo/registro2.png "Tela de Gerar Relatório").
+![Registrar](https://github.com/UFOP-CSI477/2018-01-trabalho-final-sistema-de-cadastro-de-vendas-de-produtos-da-A.A.A.U.J.M/tree/master/protipo/registro2.png "Tela de Gerar Relatório").
 
 Observação: Os exemplos acima citados se referem ao produto, porém as visões referentes a Vendas, Vendedores, Associados seguem o mesmo padrão. 
 
