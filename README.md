@@ -20,25 +20,25 @@ O objetivo deste documento é apresentar uma proposta para o trabalho a ser dese
   Esse projeto contará com as seguintes funcionalidades:
   
   
-###2.1  Vendedor
+###2.1.  Vendedor
 	* Cadastrar Vendedor: Essa funcionalidade contará com o cadastro dos vendedores. 
 	* Excluir Vendedor: Essa funcionalidade contará com a exclusão dos vendedores.
 	* Alterar Vendedor: Essa funcionalidade contará com a atualização dos dados dos vendedores.
 	* Exibir Vendedor: Essa funcionalidade contará com a exibição dos vendedores.
 	
-###2.2- Produto
+###2.2. Produto
 	* Cadastrar Produto: Essa funcionalidade contará com o cadastro dos produtos. 
 	* Excluir Produto: Essa funcionalidade contará com a exclusão dos produtos.
 	* Alterar Produto: Essa funcionalidade contará com a atualização dos dados dos produtos.
 	* Exibir Produto: Essa funcionalidade contará com a exibição dos produtos.
 
-###2.3- Associados
+###2.3. Associados
 	* Cadastrar Associados: Essa funcionalidade contará com o cadastro dos associados. 
 	* Excluir Associados: Essa funcionalidade contará com a exclusão dos dados dos associados.
 	* Alterar Produto: Essa funcionalidade contará com a atualização dos dados dos associados.
 	* Exibir Associados: Essa funcionalidade contará com a exibição dos dados dos associados.
 	
-###2.4- Vendas
+###2.4. Vendas
 	* Cadastrar Vendas: Essa funcionalidade contará com o cadastro das Vendas. 
 	* Excluir Vendas: Essa funcionalidade contará com a exclusão dos Vendas.
 	* Alterar Vendas: Essa funcionalidade contará com a atualização dos dados dos Vendas.
