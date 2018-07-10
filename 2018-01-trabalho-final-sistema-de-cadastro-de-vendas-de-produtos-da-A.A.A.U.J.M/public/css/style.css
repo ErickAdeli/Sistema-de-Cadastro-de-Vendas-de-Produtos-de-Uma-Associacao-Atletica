@@ -1,0 +1,536 @@
+													
+	  *{
+	   margin: 0; 
+	   padding: 0;
+	   font-size: 100%; 
+	   border: none; 
+	   outline: none; 
+	   font-weight: 300; 
+	   box-sizing: border-box;
+	   font-family: 'Lato', sans-serif;
+		}
+
+		table{margin-bottom: 30px;}
+		body{
+			background-color: #f5f5f5;
+		}
+		a{
+			text-decoration: none;
+
+		}
+		ul{
+			list-style: none;
+		}
+		img {
+		max-width: 100%;
+		}
+
+		footer{
+
+			margin-top: 80px;
+		}
+		/* containers */
+		.container {
+			width: 100%; 
+			float: left;
+			padding: 3% 4%; 
+			text-align: center;
+		}
+		
+		/*colors background*/
+		.background-gradient {
+			background: linear-gradient(to right,#000000,#EA1107);
+		}
+		.background-black {
+			background-color: #130400; 
+		}
+		.background-white {
+			background-color: #fff;
+		}
+		.background-grey{
+			background-color: #c6c2c2;
+		}
+		.background-whitegrey{
+			background: linear-gradient(to left, #130400, #c6c2c2);
+		}
+
+		/*FEITOS*/
+		h1{ 
+				font-family: Verdana, sans-serif; 
+				padding:15px;
+				text-align: center; 
+
+			}
+        
+			.linkcomobutton{
+				display: inline-block;
+				text-align: center;
+				font-family: Arial, Helvetica, sans-serif;
+				font-size: 14px;
+				color: #ffffff;
+				float: center;
+				padding: 10px 20px 10px 20px;
+				
+
+				background: -moz-linear-gradient(
+					top,
+					#f50000 0%,
+					#3b3b3b 50%,
+					#242424 50%,
+					#000000);
+				background: -webkit-gradient(
+					linear, left top, left bottom,
+					from(#f50000),
+					color-stop(0.50, #3b3b3b),
+					color-stop(0.50, #242424),
+					to(#000000));
+				-moz-border-radius: 10px;
+				-webkit-border-radius: 10px;
+				border-radius: 10px;
+				border: 1px solid #000000;
+				-moz-box-shadow:
+					0px 1px 3px rgba(0,0,0,0.5),
+					inset 0px 0px 1px rgba(255,255,255,0.6);
+				-webkit-box-shadow:
+					0px 1px 3px rgba(0,0,0,0.5),
+					inset 0px 0px 1px rgba(255,255,255,0.6);
+				box-shadow:
+					0px 1px 3px rgba(0,0,0,0.5),
+					inset 0px 0px 1px rgba(255,255,255,0.6);
+				text-shadow:
+					0px -1px 0px rgba(0,0,0,1),
+					0px 1px 0px rgba(235,235,235,0.2);
+			}
+			.acompointer{
+				cursor:pointer;
+			}
+			.areaForms{
+				padding: 15px;
+				position: relative;
+				width: auto;
+				height: 80%;
+				margin: 15px;
+				
+			}
+
+			.marginP{
+				margin:10px;
+				padding: 5px;
+				font-family: arial;
+			}
+
+			.inputF{
+				border: 1px solid;
+				width: 50%;
+				padding: 10px;
+				background-color: #ccccb3;
+				display: block;
+
+			}
+			.selectF{
+				border: 1px solid;
+				width: 30%;
+				padding: 10px;
+				background-color: #ccccb3;
+				display:block; ;
+			}
+
+			.alinhado{
+				display: inline-block;
+			}
+			legend{
+				  font-weight:bold;
+				  font-family: "Segoe UI","Arial","Times New Roman";
+				}
+
+		.radius {border-radius: 7px;}
+		/* header */
+		.logo {
+			width: 56px; 
+			height: 56px; 
+			float: left; 
+			background: 
+			url(../img/logo-vendas.png) center center/56px no-repeat;
+			font-size: 0;
+			margin-left: 50px;
+			}
+
+			.cabecalho{
+				border-bottom: 1px #606060 solid; 
+				
+			}
+			.cabecalho h5{
+				font-size: 20pt; 
+				text-transform: uppercase;
+				
+				font-weight: bold;
+				 float: left; 
+				 margin-left: 15px;
+				 margin-top: 20px;
+				}
+			.cabecalho h5 span{
+				color:#EA1107; 
+				font-weight: bolder;
+			}
+
+			.btn-menu {
+				width: 56px;
+				 height: 56px; 
+				 float: right; 
+				 text-align: center;
+				  color: #fff; 
+				  border-radius:56px; 
+				  cursor: pointer;
+				}
+			/* menu */
+			.menu {
+				display:none;
+				 width: 100%; 
+				 height: 100%; 
+				 position: fixed; 
+				 background-color: rgba(0,0,0,0.9); 
+				 top: 0; 
+				 left: 0;
+				}
+			.btn-close {
+				font-size: 1.5em; 
+				color: #fff; 
+				float: right; 
+				cursor: pointer; 
+				margin: 2% 3% 0 0;
+			}
+			.menu ul {
+				width: 100%; 
+				float: left; 
+				text-align: 
+				center;
+			}
+			.menu li {
+				padding: 1.5%;
+			}
+			.menu li a {
+				font-size: 2em; 
+				color: #fff; 
+				padding: 1.5% 3%;
+				-webkit-transition: 1s;
+			}
+			.menu li a:hover {
+				border:1px solid #488e65;
+			}
+			.pictures{
+				margin-left: 5em;
+			}
+			/* banner index */
+
+			.banner {
+				background: url(../img/bannerLoucomotiva.jpg) fixed ;height: 400px;margin-bottom: 20px;
+			}
+			.title {
+				width: 100%;
+			}
+			.title h2 {
+				margin-top: 2%;
+				font-size: 2.5em; 
+				color: #f5f5f5; 
+				font-weight: 900; 
+				font-family: 'edo sz';
+				text-align: left;
+			}
+			
+			.buttons {
+				width: 100%;
+				 margin-top: 2%;
+				}
+			.buttons i {
+				float: right;
+			}
+			.btn {
+				width: 100%; 
+				font-size: 1.5em; 
+				text-align: left; 
+				cursor: pointer; 
+				padding: 5%; 
+			}
+			.btn-cadastrar {
+				color: #fff;
+				 margin-top: 7%; 
+				}
+			
+			/* Services */
+			.servico {
+				width: 100%; 
+				height: 100%; 
+				 text-align: left; 
+				  margin-bottom: 3%;
+				  margin-top: 1%;
+				}
+			.servico img {
+				border-radius: 7px 7px 0 0; 
+			}
+			.servico img:hover {
+				-webkit-transform:scale(1.05); 
+				-webkit-transition: 0.4s;
+			}
+			
+			.inner {
+				padding: 5%;
+			}
+			.inner a {
+				font-size: 1.5em; 
+				color: #130400; 
+				font-weight: 700; 
+			}
+			.inner h4 {
+				font-size: 1.2em;
+				 color: #130400;
+				  margin-top: 2%; 
+				}
+			.inner p {
+				text-align: justify; 
+				margin-top: 6%; 
+				color: #130400; 
+				line-height: 1.5em;
+			}
+
+			/*Contato*/ 
+
+			.contato{
+				position: relative ;
+				width: 100%; 
+				height: 100%; 
+				padding: 3% 4%;
+			}
+			.submit{
+				cursor: pointer;
+			}
+			/* services content */
+                   
+
+			.ocupaTela{
+				width: 100%; 
+				height: 100%; 
+				margin-bottom: 3%;
+				 }
+			.conteudoInterno{
+				width: 100% ;
+				 padding: 1.5%;
+				}
+
+			.conteudo {
+				padding: 5%;
+			}
+			.conteudo h4 {
+				font-size: 1.2em;
+				 color: black;
+				  margin-top: 2%; 
+				  font-weight : 700; 
+				}
+			.conteudo p {
+				text-align: justify;
+				margin-top: 6%; 
+				color: black; 
+				line-height: 1.5em; 
+				font-weight: 200;
+			}
+
+			/* newsletter */
+
+			.newsletter h2 {
+				font-size: 1.5em; 
+				color: #fff; 
+				font-weight: 700;
+			}
+			.newsletter h3 {
+				color: #fff;
+			}
+			.newsletter form {
+				margin-top: 2%;
+			}
+			.newsletter input {
+				width: 100%;
+				color: black;
+				border: 1px solid rgba(255,255,255,0.3);
+				padding: 3%  3%  3%  3%; 
+				margin: 1% 3%;
+			}
+			.newsletter button {
+				width: 100%;
+				color:#130400;
+				padding: 5%;
+				cursor: pointer;
+				margin: 1% 3%;
+			}
+			.newsletter textarea{
+				width: 70%;
+				color: black;
+				border: 1px solid rgba(255,255,255,0.3);
+				padding: 3%  3%  3%  3%;
+				margin:1% 1% 1% 12%;
+			}
+
+			/* rodapé */
+			.social-icons a {
+				font-size: 1.5em;
+				color: rgba(255,255,255,0.7);
+				margin-right: 3%;
+			}
+			.social-icons a:last-child{
+				margin-right: 0;
+			}
+			.social-icons a:hover {
+				color: rgb(255,255,255);
+			}
+			.copyright {
+				color: rgba(255, 255, 255, 0.7); 
+				margin-top:2%;
+			}
+
+			.customers {
+		    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+		    border-collapse: collapse;
+		    width: 100%;
+			}
+
+			.customers td, .customers th {
+			    border: 1px solid #ddd;
+			    padding: 8px;
+			}
+
+			.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+			.customers tr:hover {background-color: #ddd;}
+
+			.customers th {
+			    padding-top: 12px;
+			    padding-bottom: 12px;
+
+			    text-align: left;
+			    background-color: grey;
+			    color: white;
+			}
+
+			/* https://www.w3schools.com/css/tryit.asp?filename=trycss_table_fancy referencia da tabela*/
+
+			/* ========== mobile first ==========*/
+			/* SMALL DEVICES - SMARTPHONES */
+			@media screen and (min-width: 480px) {
+				
+				.btn {font-size: 1.5em;}
+
+			}
+			/* SMALL DEVICES - TABLETS*/
+			@media screen and (min-width: 768px) {
+				.servico {
+					width: 49%; 
+					float: left; 
+					margin-right: 2%;
+				}
+				.servico:nth-child(2){margin-right: 0;}
+				.newsletter h2 {font-size: 2em;}
+				.newsletter h3 {font-size: 1.5em;}
+				.newsletter input {
+					width: 60%; 
+					padding: 2%; 
+					float: none; 
+					margin-right: 2%;
+				}
+				.newsletter button {
+					width: 29%; 
+					padding: 2%;
+					float: none; 
+					margin-bottom: 4%;
+				}
+				.newsletter textarea{
+					width: 60%;
+					padding: 2%;
+					float: none;
+					margin-right: 11%;
+				}
+				.album-fotos2#albumfotos{
+					width: 50%;
+					height:50%;
+				}
+
+				.customers{
+					width: 60%;
+				}
+			}
+
+			
+
+			/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+			@media screen and (min-width: 960px) {
+				.title {
+					width: 70%;
+					float: left;
+					text-align: left;
+				}
+				.title h2 {font-size: 3em;}
+				.title h3 {font-size: 2em;}
+				.buttons {
+					width: 30%;
+					float: right;
+					margin-top: 0;
+				}
+				.servico {width: 32%; }
+				.servico:nth-child(2){margin-right: 2%;}
+				.servico:nth-child(3){margin-right: 0;}
+				.newsletter input {
+					width: 70%;
+					float: none;
+				}
+				.newsletter button {
+					width: 20%;
+					float: none;
+					margin-bottom: 5%;
+				}
+				.newsletter textarea{
+					width: 70%;
+					float: none;
+				}
+				.customers{
+					width: 70%;
+				}
+			}
+			/* LARGE DEVICES - WIDE SCREENS*/
+			@media screen and (min-width: 1280px) {
+				.btn-menu {display: none; }
+				.btn-close {display: none;}
+				.menu {
+					width: auto;
+					height: 56px;
+					line-height: 56px;
+					float: right;
+					background-color: #f5f5f5; 
+					display: block !important;
+					position: static;
+				}
+					.menu li {
+						padding: 0;
+						float: left;
+					}
+					.menu li a {
+						color:#130400;
+						font-size: 1em;
+						padding: 15px;
+					}
+					.menu li a:hover {
+						border: none;
+						color:#488e65;
+					}
+
+					.menu li:hover{
+						-webkit-transform:scale(1.4);
+						-webkit-transition: 0.4s;
+					}
+
+					.customers{
+					width: 100%;
+				}
+				}
+
+
+
+
+
+

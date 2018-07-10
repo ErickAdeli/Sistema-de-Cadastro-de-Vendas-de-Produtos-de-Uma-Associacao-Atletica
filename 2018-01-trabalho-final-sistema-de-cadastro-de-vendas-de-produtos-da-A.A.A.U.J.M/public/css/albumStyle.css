@@ -1,0 +1,267 @@
+@charset UTF-8;
+
+.album-fotos2{ /* espaço total do album*/
+	
+	
+	padding: 5% 4% 4% 6%;
+	overflow: hidden;
+	list-style: none;
+	margin-left: 1%;
+}
+
+/*ul#album-fotos li{ /*cada espaço para as fotos*/
+.album-fotos2#album-fotos li{
+	margin-top: 2%;
+	margin-bottom: 1%;
+	width: 250px;
+	height: 250px;
+	margin-right: 8%;
+	border: 5px solid rgba(0,0,0,.1);
+	background-color: #ffffff;
+	box-shadow: 1px, 1px, 1px,rgba(0,0,0,.4);
+	float: left;
+	 /**/
+}
+
+ul#album-fotos li span{                          
+	font-family: calibri, sans-serif;
+	opacity: 0;
+	color: white;
+	text-shadow: 1px, 1px, 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 25%; /* descendo a legenda das fotos*/ 
+	padding: 2%;
+
+	float: left;
+}
+
+
+ul#album-fotos li:hover span{ /*ao passar o mouse por cima da foto o span aparece*/ 
+	opacity: 1;
+	
+}
+
+/*Gallery Fixed*/
+ul#album-fotos li#imagem01{
+	background: url('../img/galeria-01.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+
+}
+
+ul#album-fotos li#imagem01:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+
+ul#album-fotos li#imagem02{
+	background: url('../img/galeria-02.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#imagem02:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem03{
+	background: url('../img/galeria-03.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#imagem03:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem04{
+	background: url('../img/galeria-04.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#imagem04:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem05{
+	background: url('../img/galeria-05.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#imagem05:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem06{
+	background: url('../img/galeria-06.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#imagem06:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+
+ul#album-fotos li#imagem07{
+	background: url('../img/galeria-07.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+
+ul#album-fotos li#imagem07:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem08{
+	background: url('../img/galeria-08.jpg') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#imagem08:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+ul#album-fotos li#imagem09{
+	background: url('../img/galeria-09.png') no-repeat;
+	background-position: 50%, 50%;
+	background-size: 350px 350px;
+	background-color: #ffffff;
+}
+ul#album-fotos li#imagem09:hover{
+	background-position: 0px 0px;
+	background-size: 250px 250px;
+
+}
+
+
+
+
+
+@media screen and (min-width: 200px) {
+				
+				.album-fotos2{
+					margin-top: 7%;
+					padding-top: 12%; 
+					padding-left: 15%;
+					padding-bottom: 10%;
+					}
+				.album-fotos2#album-fotos li{
+				width:160px ;
+				height: 160px;
+				border: 5% solid rgba(0,0,0,.1);
+				background-color: #ffffff;
+				box-shadow: 1px, 1px, 1px,rgba(0,0,0,.4);
+				float: left;}
+
+				.album-fotos2 ul#album-fotos li span{                          
+				font-family: calibri, sans-serif;
+				opacity: 0;
+				color: white;
+				text-shadow: 1px, 1px, 1px #000000;
+				background-color: rgba(0,0,0,.3);
+				font-size: 9pt;
+				line-height: 25%; /* descendo a legenda das fotos*/ 
+				padding-bottom: 5%;
+				float: none;
+				}
+
+				ul#album-fotos li:hover{
+				-webkit-transform:scale(1.2); /*zoom com css*/
+				-webkit-transition: all 0.5s;
+					}
+				}
+
+			@media screen and (min-width: 480px) {
+				.album-fotos2{margin-top: 7%;
+					padding-top: 10%;
+					 padding-left: 9%;
+					  padding-bottom: 10%;
+					}
+				.album-fotos2#album-fotos li{
+				width:180px ;
+				height: 180px;
+				border: 5% solid rgba(0,0,0,.1);
+				background-color: #ffffff;
+				box-shadow: 1px, 1px, 1px,rgba(0,0,0,.4);
+				float: left;
+
+				}
+				ul#album-fotos li:hover{
+				-webkit-transform:scale(1.3); /*zoom com css*/
+				-webkit-transition: all 0.5s;
+					}
+				}
+			
+			/* SMALL DEVICES - TABLETS*/
+			@media screen and (min-width: 768px) {
+				
+				.album-fotos2{margin-top: 5%;
+					padding-top: 7%; 
+					padding-left: 12%; 
+					padding-bottom: 10%;
+				}
+				.album-fotos2#album-fotos li{
+				width: 200px;
+				height: 200px;
+				border: 5% solid rgba(0,0,0,.1);
+				background-color: #ffffff;
+				box-shadow: 1px, 1px, 1px,rgba(0,0,0,.4);
+				float: left;
+				 /**/
+
+			}
+			ul#album-fotos li:hover{
+				-webkit-transform:scale(1.4); /*zoom com css*/
+				-webkit-transition: all 0.5s;
+					}
+
+				
+			}
+
+			/* MEDIUM DEVICES - TABLETS & DESKTOPS*/
+			@media screen and (min-width: 960px) {
+				.album-fotos2{margin-top: 5%;
+					padding-top: 7%;
+					padding-left: 12%;
+					padding-bottom: 10%;
+				}
+				.album-fotos2#album-fotos li{
+				width: 250px;
+				height: 250px;
+				border: 5% solid rgba(0,0,0,.1);
+				background-color: #ffffff;
+				box-shadow: 1px, 1px, 1px,rgba(0,0,0,.4);
+				float: left;
+				
+				
+			}
+			/* LARGE DEVICES - WIDE SCREENS*/
+			@media screen and (min-width: 1280px) {
+				.album-fotos2{padding: 5% 4% 4% 6%;
+				 overflow: hidden; 
+				 list-style: none; 
+				 margin-left: 1%; 
+				}
+
+				ul#album-fotos li:hover{
+				-webkit-transform:scale(1.3); /*zoom com css*/
+				-webkit-transition: all 0.5s;
+					}
+				}
